@@ -1,9 +1,9 @@
-import Modal from "../layout/Modal";
+import ModalAdd from "../layout/ModalAdd";
 
 export default function AddWorks() {
   return (
     <div>
-      <Modal />
+      <ModalAdd />
     </div>
   );
 }

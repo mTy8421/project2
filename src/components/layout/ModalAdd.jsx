@@ -1,6 +1,6 @@
 import Tables from "./Tables";
 
-export default function Modal() {
+export default function ModalAdd() {
   return (
     <>
       {/* Open the modal using document.getElementById('ID').showModal() method */}
