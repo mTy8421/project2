@@ -10,7 +10,7 @@ export default function Home() {
           <SideBarOpen />
         </div>
         <div className="flex-1 w-64 ml-3 mt-3">
-          <h1 className="text-center text-2xl">Home</h1>
+          <h1 className="text-center text-2xl">รายงาน</h1>
           <p className="">
             Lorem, ipsum dolor sit amet consectetur adipisicing elit. Debitis,
             eaque, harum eius tenetur optio numquam magnam ipsam ea fugiat
