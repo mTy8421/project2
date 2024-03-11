@@ -7,7 +7,7 @@ export default function NavBar() {
         <SideBar />
       </div>
       <div className="flex-1 justify-center">
-        <a className="btn btn-ghost text-xl">Systme Somthing</a>
+        <a className="btn btn-ghost text-xl">ระบบภาระงาน</a>
       </div>
       <div className="flex-none">
         <button className="btn btn-square btn-ghost">

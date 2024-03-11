@@ -1,8 +1,6 @@
-import DoWork from "./DoWork";
-
-export default function Tables() {
+export default function TableAddSub() {
   let num = [];
-  for (let index = 0; index < 10; index++) {
+  for (let index = 0; index < 2; index++) {
     num.push(index);
   }
 
@@ -13,9 +11,11 @@ export default function Tables() {
         <thead>
           <tr>
             <th>รหัสภาระงาน</th>
-            <th>ชื่องาน</th>
             <th>ชื่อหัวข้อภาระงาน</th>
-            <th>ตวจรสอบ</th>
+            <th>ชื่อภาระงาน</th>
+            <th>ประเภทของงาน</th>
+            <th>เวลา (นาที)</th>
+            <th></th>
           </tr>
         </thead>
         <tbody>
@@ -24,9 +24,11 @@ export default function Tables() {
               <tr className="hover" key={key}>
                 <th>{key}</th>
                 <td>Test</td>
-                <td>Work 1</td>
+                <td>Test</td>
+                <td>Work1</td>
+                <td>90</td>
                 <td>
-                  <DoWork />
+                  <button className="btn btn-error text-white">ลบ</button>
                 </td>
               </tr>
             );

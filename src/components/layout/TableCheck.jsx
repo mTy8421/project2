@@ -1,6 +1,6 @@
-import DoWork from "./DoWork";
+import ModalCheck from "./ModalCheck";
 
-export default function Tables() {
+export default function TablesCheck() {
   let num = [];
   for (let index = 0; index < 10; index++) {
     num.push(index);
@@ -13,9 +13,10 @@ export default function Tables() {
         <thead>
           <tr>
             <th>รหัสภาระงาน</th>
-            <th>ชื่องาน</th>
+            <th>ชื่อภาระงาน</th>
             <th>ชื่อหัวข้อภาระงาน</th>
             <th>ตวจรสอบ</th>
+            <th>สถานะ</th>
           </tr>
         </thead>
         <tbody>
@@ -26,8 +27,9 @@ export default function Tables() {
                 <td>Test</td>
                 <td>Work 1</td>
                 <td>
-                  <DoWork />
+                  <ModalCheck />
                 </td>
+                <td>{key % 2 == 0 ? "อนุมัติ" : "ไม่อนุมัติ"}</td>
               </tr>
             );
           })}

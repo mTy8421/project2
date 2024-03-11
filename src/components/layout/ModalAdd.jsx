@@ -1,20 +1,18 @@
-import Tables from "./Tables";
-
 export default function ModalAdd() {
   return (
     <>
       {/* Open the modal using document.getElementById('ID').showModal() method */}
       <button
-        className="btn"
+        className="btn btn-info text-white"
         onClick={() => document.getElementById("my_modal_2").showModal()}
       >
-        open modal
+        เพิ่ม
       </button>
       <dialog id="my_modal_2" className="modal">
         <div className="modal-box min-w-[50%]">
           <h3 className="font-bold text-lg text-center">เพิ่มหัวข้อภาระงาน</h3>
           <label className="form-control mt-3">
-            <div className="lable">
+            <div className="label">
               <span className="label-text">หัวข้อภาระงาน :</span>
             </div>
             <input

@@ -1,3 +1,5 @@
+import { Link } from "react-router-dom";
+
 export default function Login() {
   return (
     <>
@@ -27,14 +29,14 @@ export default function Login() {
                   required
                 />
                 <label className="label">
-                  <a href="#" className="label-text-alt link link-hover">
+                  <Link to="/" className="label-text-alt link link-hover">
                     Forgot password?
-                  </a>
+                  </Link>
                 </label>
               </div>
               <div className="flex flex-col w-full border-opacity-50">
                 <div className="form-control mt-6">
-                  <button className="btn btn-primary">Login</button>
+                  <button className="btn btn-primary text-white">Login</button>
                 </div>
                 <div className="divider">OR</div>
                 <div className="form-control">

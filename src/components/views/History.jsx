@@ -1,8 +1,8 @@
 import NavBar from "../layout/NavBar";
 import SideBarOpen from "../layout/SideBarOpen";
-import Tables from "../layout/Tables";
+import TablesCheck from "../layout/TableCheck";
 
-export default function Works() {
+export default function History() {
   return (
     <>
       <NavBar />
@@ -11,10 +11,8 @@ export default function Works() {
           <SideBarOpen />
         </div>
         <div className="flex-1 w-64 mt-3 ml-3">
-          <h1 className="text-center text-2xl">
-            บัญชีรายชื่อภาระงานที่ต้องปฎิบัติ
-          </h1>
-          <Tables />
+          <h1 className="text-center text-2xl">ประวัติการทำงาน</h1>
+          <TablesCheck />
         </div>
       </div>
     </>
